@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import About from './sections/About';
@@ -26,6 +27,7 @@ function App() {
         <Donate />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
