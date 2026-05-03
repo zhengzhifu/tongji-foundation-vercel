@@ -53,7 +53,7 @@ const winnersData: Record<string, Winner[]> = {
   '2023': [
     {
       name: 'Xiaoying Zhuang',
-      institution: '',
+      institution: 'Leibniz University Hannover & Tongji University',
       title: '',
       bio: '',
       photo: '/images/xiaoying-zhuang.png',
